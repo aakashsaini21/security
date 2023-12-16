@@ -1,0 +1,42 @@
+.user-profile {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-fields {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .profile-fields label {
+    font-weight: bold;
+  }
+  
+  .profile-fields input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .profile-fields input[readOnly] {
+    cursor: default;
+  }
+  
+  .profile-image {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
